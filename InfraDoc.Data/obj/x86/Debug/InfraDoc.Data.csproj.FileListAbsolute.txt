@@ -1,0 +1,5 @@
+c:\users\jamyers\documents\visual studio 2010\Projects\InfraDoc\InfraDoc.Data\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jamyers\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Data\bin\Debug\InfraDoc.Data.exe
+C:\Users\jamyers\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Data\bin\Debug\InfraDoc.Data.pdb
+C:\Users\jamyers\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Data\obj\x86\Debug\InfraDoc.Data.exe
+C:\Users\jamyers\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Data\obj\x86\Debug\InfraDoc.Data.pdb

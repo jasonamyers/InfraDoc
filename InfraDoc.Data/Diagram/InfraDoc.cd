@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InfraDoc.Data.Ip">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAACCKAAAAEAAAAA=</HashCode>
+      <FileName>Ip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfraDoc.Data.Contact">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAgAAAAAAAAAQAAAAAAAEAAAAAIAAAAAA=</HashCode>
+      <FileName>Contact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfraDoc.Data.Site">
+    <Position X="11.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAEAAgAAAEAAAAAAQAAAAAAAACAAAAAAAQAAA=</HashCode>
+      <FileName>Site.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfraDoc.Data.Subnet">
+    <Position X="13" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAggAAAAAAAIAIAAAAAAAAAAAAAAERAIAA=</HashCode>
+      <FileName>Subnet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,7 @@
+c:\users\jamyers\documents\visual studio 2010\Projects\InfraDoc\InfraDoc\bin\InfraDoc.dll
+c:\users\jamyers\documents\visual studio 2010\Projects\InfraDoc\InfraDoc\bin\InfraDoc.pdb
+c:\users\jamyers\documents\visual studio 2010\Projects\InfraDoc\InfraDoc\bin\EntityFramework.dll
+c:\users\jamyers\documents\visual studio 2010\Projects\InfraDoc\InfraDoc\bin\EntityFramework.xml
+c:\users\jamyers\documents\visual studio 2010\Projects\InfraDoc\InfraDoc\obj\Debug\ResolveAssemblyReference.cache
+c:\users\jamyers\documents\visual studio 2010\Projects\InfraDoc\InfraDoc\obj\Debug\InfraDoc.dll
+c:\users\jamyers\documents\visual studio 2010\Projects\InfraDoc\InfraDoc\obj\Debug\InfraDoc.pdb
