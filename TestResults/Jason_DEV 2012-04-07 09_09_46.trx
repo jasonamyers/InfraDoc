@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ec5c582b-3f40-4e6b-bdf8-0d31411a5333" name="Jason@DEV 2012-04-07 09:09:46" runUser="dev\Jason" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1e51673f-cf99-4c2a-8176-501a22e125a4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Jason_DEV 2012-04-07 09_09_46">
+      <DeploymentItem filename="C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Services\bin\Debug\InfraDoc.Services.exe" />
+      <DeploymentItem filename="C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc\bin\InfraDoc.dll" />
+      <DeploymentItem filename="C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Data\bin\Debug\InfraDoc.Data.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-07T09:09:46.3002947-05:00" queuing="2012-04-07T09:09:46.3902999-05:00" start="2012-04-07T09:09:46.4013005-05:00" finish="2012-04-07T09:09:46.9393313-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="12" executed="12" passed="12" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Repository_SiteFilter_Returns_2_Contacts_With_Site_1" storage="c:\users\jason\documents\visual studio 2010\projects\infradoc\infradoc.tests\bin\debug\infradoc.tests.dll" id="7e9f73dd-243d-0385-84c2-425cb200fde9">
+      <Execution id="bc8a8ecf-edd7-4e95-ab3f-021ed6fcb97e" />
+      <TestMethod codeBase="C:/Users/Jason/Documents/Visual Studio 2010/Projects/InfraDoc/InfraDoc.Tests/bin/Debug/InfraDoc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="InfraDoc.Tests.ContactTests, InfraDoc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Repository_SiteFilter_Returns_2_Contacts_With_Site_1" />
+    </UnitTest>
+    <UnitTest name="ContactService_Returns_Single_Contact_With_ContactID_1" storage="c:\users\jason\documents\visual studio 2010\projects\infradoc\infradoc.tests\bin\debug\infradoc.tests.dll" id="2b62bf3c-5d68-961d-05ab-287a9033dcc2">
+      <Execution id="84a59182-447c-4e2d-93bb-ca34c4579ed4" />
+      <TestMethod codeBase="C:/Users/Jason/Documents/Visual Studio 2010/Projects/InfraDoc/InfraDoc.Tests/bin/Debug/InfraDoc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="InfraDoc.Tests.ContactTests, InfraDoc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ContactService_Returns_Single_Contact_With_ContactID_1" />
+    </UnitTest>
+    <UnitTest name="SiteService_Can_Get_Sites_From_Service" storage="c:\users\jason\documents\visual studio 2010\projects\infradoc\infradoc.tests\bin\debug\infradoc.tests.dll" id="8f9e1449-db00-6db2-c48e-b38a2922cdef">
+      <Execution id="8bfed223-b7fe-4992-9246-4bea03473d2a" />
+      <TestMethod codeBase="C:/Users/Jason/Documents/Visual Studio 2010/Projects/InfraDoc/InfraDoc.Tests/bin/Debug/InfraDoc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="InfraDoc.Tests.SiteTests, InfraDoc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SiteService_Can_Get_Sites_From_Service" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\jason\documents\visual studio 2010\projects\infradoc\infradoc.integrationtests\bin\debug\infradoc.integrationtests.dll" id="0a5a2743-977d-3d46-b078-acbc394b80ad">
+      <Execution id="4d2b4efa-2c8f-4198-96b1-1be114c9e0cb" />
+      <TestMethod codeBase="C:/Users/Jason/Documents/Visual Studio 2010/Projects/InfraDoc/InfraDoc.IntegrationTests/bin/Debug/InfraDoc.IntegrationTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="InfraDoc.IntegrationTests.UnitTest1, InfraDoc.IntegrationTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\users\jason\documents\visual studio 2010\projects\infradoc\infradoc.tests\bin\debug\infradoc.tests.dll" id="74761d47-de3b-5906-b937-efb612842a8a">
+      <Execution id="a55347e9-8f64-420b-b81b-bae44027ed71" />
+      <TestMethod codeBase="C:/Users/Jason/Documents/Visual Studio 2010/Projects/InfraDoc/InfraDoc.Tests/bin/Debug/InfraDoc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="InfraDoc.Tests.Controllers.HomeControllerTest, InfraDoc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\users\jason\documents\visual studio 2010\projects\infradoc\infradoc.tests\bin\debug\infradoc.tests.dll" id="bf3fe024-5191-af7f-0dc4-845cae653bdb">
+      <Execution id="6d79391b-a78e-4dbb-a0fe-33d783252888" />
+      <TestMethod codeBase="C:/Users/Jason/Documents/Visual Studio 2010/Projects/InfraDoc/InfraDoc.Tests/bin/Debug/InfraDoc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="InfraDoc.Tests.Controllers.HomeControllerTest, InfraDoc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="Contact_Has_Site_Filter_For_Product" storage="c:\users\jason\documents\visual studio 2010\projects\infradoc\infradoc.tests\bin\debug\infradoc.tests.dll" id="8502a8e8-d4b5-3f83-a9b0-e8aa840be8c9">
+      <Execution id="f2b687e1-7abd-4054-a1da-65acc756b797" />
+      <TestMethod codeBase="C:/Users/Jason/Documents/Visual Studio 2010/Projects/InfraDoc/InfraDoc.Tests/bin/Debug/InfraDoc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="InfraDoc.Tests.ContactTests, InfraDoc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Contact_Has_Site_Filter_For_Product" />
+    </UnitTest>
+    <UnitTest name="ContactService_Returns_2_Contacts_With_Site_1" storage="c:\users\jason\documents\visual studio 2010\projects\infradoc\infradoc.tests\bin\debug\infradoc.tests.dll" id="60754f88-f45f-2f23-828c-96e705cb4030">
+      <Execution id="7c11cc2a-7d46-4616-99fc-b8def994fd88" />
+      <TestMethod codeBase="C:/Users/Jason/Documents/Visual Studio 2010/Projects/InfraDoc/InfraDoc.Tests/bin/Debug/InfraDoc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="InfraDoc.Tests.ContactTests, InfraDoc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ContactService_Returns_2_Contacts_With_Site_1" />
+    </UnitTest>
+    <UnitTest name="ContactRepository_Contains_Products" storage="c:\users\jason\documents\visual studio 2010\projects\infradoc\infradoc.tests\bin\debug\infradoc.tests.dll" id="545f2b79-054e-4c30-3c20-ac752950c10b">
+      <Execution id="73a9d646-5a11-4bf1-933c-985eb3426299" />
+      <TestMethod codeBase="C:/Users/Jason/Documents/Visual Studio 2010/Projects/InfraDoc/InfraDoc.Tests/bin/Debug/InfraDoc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="InfraDoc.Tests.ContactTests, InfraDoc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ContactRepository_Contains_Products" />
+    </UnitTest>
+    <UnitTest name="Repository_Returns_Single_Contact_When_Filtered_ByID_1" storage="c:\users\jason\documents\visual studio 2010\projects\infradoc\infradoc.tests\bin\debug\infradoc.tests.dll" id="315ddc6b-18d5-8a35-40da-00a33219ffb4">
+      <Execution id="61152d9b-9874-4950-896d-3a5d5295a028" />
+      <TestMethod codeBase="C:/Users/Jason/Documents/Visual Studio 2010/Projects/InfraDoc/InfraDoc.Tests/bin/Debug/InfraDoc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="InfraDoc.Tests.ContactTests, InfraDoc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Repository_Returns_Single_Contact_When_Filtered_ByID_1" />
+    </UnitTest>
+    <UnitTest name="Contact_ShouldHave_Name_PhoneNumber_Email_Site_Fields" storage="c:\users\jason\documents\visual studio 2010\projects\infradoc\infradoc.tests\bin\debug\infradoc.tests.dll" id="5dc1174a-51f4-70de-9182-b07a3d85d841">
+      <Execution id="3678278e-5e38-4fa1-8b85-e2fc2397e7c7" />
+      <TestMethod codeBase="C:/Users/Jason/Documents/Visual Studio 2010/Projects/InfraDoc/InfraDoc.Tests/bin/Debug/InfraDoc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="InfraDoc.Tests.ContactTests, InfraDoc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Contact_ShouldHave_Name_PhoneNumber_Email_Site_Fields" />
+    </UnitTest>
+    <UnitTest name="SiteRepository_Repository_IsNotNull" storage="c:\users\jason\documents\visual studio 2010\projects\infradoc\infradoc.tests\bin\debug\infradoc.tests.dll" id="eb396982-d821-7c6b-3c5d-ef0589f8edc1">
+      <Execution id="98ff491b-4189-4a2c-aa7c-8f2fde4943da" />
+      <TestMethod codeBase="C:/Users/Jason/Documents/Visual Studio 2010/Projects/InfraDoc/InfraDoc.Tests/bin/Debug/InfraDoc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="InfraDoc.Tests.SiteTests, InfraDoc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SiteRepository_Repository_IsNotNull" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0a5a2743-977d-3d46-b078-acbc394b80ad" executionId="4d2b4efa-2c8f-4198-96b1-1be114c9e0cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b62bf3c-5d68-961d-05ab-287a9033dcc2" executionId="84a59182-447c-4e2d-93bb-ca34c4579ed4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="315ddc6b-18d5-8a35-40da-00a33219ffb4" executionId="61152d9b-9874-4950-896d-3a5d5295a028" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="545f2b79-054e-4c30-3c20-ac752950c10b" executionId="73a9d646-5a11-4bf1-933c-985eb3426299" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5dc1174a-51f4-70de-9182-b07a3d85d841" executionId="3678278e-5e38-4fa1-8b85-e2fc2397e7c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="60754f88-f45f-2f23-828c-96e705cb4030" executionId="7c11cc2a-7d46-4616-99fc-b8def994fd88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="74761d47-de3b-5906-b937-efb612842a8a" executionId="a55347e9-8f64-420b-b81b-bae44027ed71" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e9f73dd-243d-0385-84c2-425cb200fde9" executionId="bc8a8ecf-edd7-4e95-ab3f-021ed6fcb97e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8502a8e8-d4b5-3f83-a9b0-e8aa840be8c9" executionId="f2b687e1-7abd-4054-a1da-65acc756b797" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f9e1449-db00-6db2-c48e-b38a2922cdef" executionId="8bfed223-b7fe-4992-9246-4bea03473d2a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf3fe024-5191-af7f-0dc4-845cae653bdb" executionId="6d79391b-a78e-4dbb-a0fe-33d783252888" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eb396982-d821-7c6b-3c5d-ef0589f8edc1" executionId="98ff491b-4189-4a2c-aa7c-8f2fde4943da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4d2b4efa-2c8f-4198-96b1-1be114c9e0cb" testId="0a5a2743-977d-3d46-b078-acbc394b80ad" testName="TestMethod1" computerName="DEV" duration="00:00:00.0111055" startTime="2012-04-07T09:09:46.4033006-05:00" endTime="2012-04-07T09:09:46.6323137-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d2b4efa-2c8f-4198-96b1-1be114c9e0cb">
+    </UnitTestResult>
+    <UnitTestResult executionId="84a59182-447c-4e2d-93bb-ca34c4579ed4" testId="2b62bf3c-5d68-961d-05ab-287a9033dcc2" testName="ContactService_Returns_Single_Contact_With_ContactID_1" computerName="DEV" duration="00:00:00.0141330" startTime="2012-04-07T09:09:46.6343138-05:00" endTime="2012-04-07T09:09:46.8103239-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84a59182-447c-4e2d-93bb-ca34c4579ed4">
+    </UnitTestResult>
+    <UnitTestResult executionId="61152d9b-9874-4950-896d-3a5d5295a028" testId="315ddc6b-18d5-8a35-40da-00a33219ffb4" testName="Repository_Returns_Single_Contact_When_Filtered_ByID_1" computerName="DEV" duration="00:00:00.0011862" startTime="2012-04-07T09:09:46.8143241-05:00" endTime="2012-04-07T09:09:46.8183243-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61152d9b-9874-4950-896d-3a5d5295a028">
+    </UnitTestResult>
+    <UnitTestResult executionId="73a9d646-5a11-4bf1-933c-985eb3426299" testId="545f2b79-054e-4c30-3c20-ac752950c10b" testName="ContactRepository_Contains_Products" computerName="DEV" duration="00:00:00.0001198" startTime="2012-04-07T09:09:46.8203245-05:00" endTime="2012-04-07T09:09:46.8223246-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73a9d646-5a11-4bf1-933c-985eb3426299">
+    </UnitTestResult>
+    <UnitTestResult executionId="3678278e-5e38-4fa1-8b85-e2fc2397e7c7" testId="5dc1174a-51f4-70de-9182-b07a3d85d841" testName="Contact_ShouldHave_Name_PhoneNumber_Email_Site_Fields" computerName="DEV" duration="00:00:00.0005147" startTime="2012-04-07T09:09:46.8253247-05:00" endTime="2012-04-07T09:09:46.8283249-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3678278e-5e38-4fa1-8b85-e2fc2397e7c7">
+    </UnitTestResult>
+    <UnitTestResult executionId="7c11cc2a-7d46-4616-99fc-b8def994fd88" testId="60754f88-f45f-2f23-828c-96e705cb4030" testName="ContactService_Returns_2_Contacts_With_Site_1" computerName="DEV" duration="00:00:00.0013738" startTime="2012-04-07T09:09:46.8303250-05:00" endTime="2012-04-07T09:09:46.8343253-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c11cc2a-7d46-4616-99fc-b8def994fd88">
+    </UnitTestResult>
+    <UnitTestResult executionId="a55347e9-8f64-420b-b81b-bae44027ed71" testId="74761d47-de3b-5906-b937-efb612842a8a" testName="Index" computerName="DEV" duration="00:00:00.0275955" startTime="2012-04-07T09:09:46.8363254-05:00" endTime="2012-04-07T09:09:46.8663271-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a55347e9-8f64-420b-b81b-bae44027ed71">
+    </UnitTestResult>
+    <UnitTestResult executionId="bc8a8ecf-edd7-4e95-ab3f-021ed6fcb97e" testId="7e9f73dd-243d-0385-84c2-425cb200fde9" testName="Repository_SiteFilter_Returns_2_Contacts_With_Site_1" computerName="DEV" duration="00:00:00.0011031" startTime="2012-04-07T09:09:46.8703273-05:00" endTime="2012-04-07T09:09:46.8783278-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc8a8ecf-edd7-4e95-ab3f-021ed6fcb97e">
+    </UnitTestResult>
+    <UnitTestResult executionId="f2b687e1-7abd-4054-a1da-65acc756b797" testId="8502a8e8-d4b5-3f83-a9b0-e8aa840be8c9" testName="Contact_Has_Site_Filter_For_Product" computerName="DEV" duration="00:00:00.0008719" startTime="2012-04-07T09:09:46.8803279-05:00" endTime="2012-04-07T09:09:46.8833281-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2b687e1-7abd-4054-a1da-65acc756b797">
+    </UnitTestResult>
+    <UnitTestResult executionId="8bfed223-b7fe-4992-9246-4bea03473d2a" testId="8f9e1449-db00-6db2-c48e-b38a2922cdef" testName="SiteService_Can_Get_Sites_From_Service" computerName="DEV" duration="00:00:00.0015456" startTime="2012-04-07T09:09:46.8863282-05:00" endTime="2012-04-07T09:09:46.8903285-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8bfed223-b7fe-4992-9246-4bea03473d2a">
+    </UnitTestResult>
+    <UnitTestResult executionId="6d79391b-a78e-4dbb-a0fe-33d783252888" testId="bf3fe024-5191-af7f-0dc4-845cae653bdb" testName="About" computerName="DEV" duration="00:00:00.0001848" startTime="2012-04-07T09:09:46.8923286-05:00" endTime="2012-04-07T09:09:46.8953287-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d79391b-a78e-4dbb-a0fe-33d783252888">
+    </UnitTestResult>
+    <UnitTestResult executionId="98ff491b-4189-4a2c-aa7c-8f2fde4943da" testId="eb396982-d821-7c6b-3c5d-ef0589f8edc1" testName="SiteRepository_Repository_IsNotNull" computerName="DEV" duration="00:00:00.0001723" startTime="2012-04-07T09:09:46.8973289-05:00" endTime="2012-04-07T09:09:46.9173300-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98ff491b-4189-4a2c-aa7c-8f2fde4943da">
+    </UnitTestResult>
+  </Results>
+</TestRun>

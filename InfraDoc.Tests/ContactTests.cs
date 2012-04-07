@@ -3,8 +3,8 @@ using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 using InfraDoc.Data;
-using InfraDoc.Data.DataAccess;
 using InfraDoc.Data.Filters;
+using InfraDoc.Data.Interfaces;
 using InfraDoc.Services;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -33,14 +33,14 @@ namespace InfraDoc.Tests
         }
 
         [TestMethod]
-        public void ContactRepository_Contains_Products()
+        public void ContactRepository_Contains_Contacts()
         {
             IContactRepository rep = new TestContactRepository();
             Assert.IsNotNull(rep.GetContacts());
         }
 
         [TestMethod]
-        public void Contact_Has_Site_Filter_For_Product()
+        public void Contact_Has_Site_Filter_For_Contacts()
         {
             IContactRepository rep = new TestContactRepository();
 

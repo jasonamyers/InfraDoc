@@ -37,6 +37,7 @@
     <Compile Include="ContactService.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="SiteService.cs" />
+    <Compile Include="SubnetService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

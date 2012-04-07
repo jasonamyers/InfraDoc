@@ -16,5 +16,21 @@ namespace InfraDoc.Data
         public int Preference { get; set; }
         public Site Site { get; set; }
         public IList<Ip> Ips { get; set; }
+
+        public Subnet()
+        {
+            
+        }
+
+        public Subnet(int subnetID, int siteID, string network, string description, string netmask, string gateway, int preference)
+        {
+            this.SubnetId = subnetID;
+            this.SiteId = siteID;
+            this.Network = network;
+            this.Description = description;
+            this.Netmask = netmask;
+            this.Gateway = gateway;
+            this.Preference = preference;
+        }
     }
 }

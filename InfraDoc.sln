@@ -11,9 +11,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfraDoc.Services", "InfraD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test Projects", "Test Projects", "{87882454-CE71-44D9-A322-510ED4C86CDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfraDoc.IntegrationTests", "InfraDoc.IntegrationTests\InfraDoc.IntegrationTests.csproj", "{DAEEB586-6725-40F4-B96F-D0D4098F0A3B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfraDoc.IntegrationTests", "InfraDoc.IntegrationTests\InfraDoc.IntegrationTests.csproj", "{97162189-4486-421F-B1C9-46D5870C251E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BB4624D4-9CE7-47CA-8972-A5F8F7285932}"
+	ProjectSection(SolutionItems) = preProject
+		InfraDoc.vsmdi = InfraDoc.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
 EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = InfraDoc.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -63,22 +73,23 @@ Global
 		{89D03D2B-48BA-4726-A234-8586B114A26D}.Release|Mixed Platforms.Build.0 = Release|x86
 		{89D03D2B-48BA-4726-A234-8586B114A26D}.Release|x86.ActiveCfg = Release|x86
 		{89D03D2B-48BA-4726-A234-8586B114A26D}.Release|x86.Build.0 = Release|x86
-		{DAEEB586-6725-40F4-B96F-D0D4098F0A3B}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{DAEEB586-6725-40F4-B96F-D0D4098F0A3B}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{DAEEB586-6725-40F4-B96F-D0D4098F0A3B}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{DAEEB586-6725-40F4-B96F-D0D4098F0A3B}.Debug|x86.ActiveCfg = Debug|x86
-		{DAEEB586-6725-40F4-B96F-D0D4098F0A3B}.Debug|x86.Build.0 = Debug|x86
-		{DAEEB586-6725-40F4-B96F-D0D4098F0A3B}.Release|Any CPU.ActiveCfg = Release|x86
-		{DAEEB586-6725-40F4-B96F-D0D4098F0A3B}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{DAEEB586-6725-40F4-B96F-D0D4098F0A3B}.Release|Mixed Platforms.Build.0 = Release|x86
-		{DAEEB586-6725-40F4-B96F-D0D4098F0A3B}.Release|x86.ActiveCfg = Release|x86
-		{DAEEB586-6725-40F4-B96F-D0D4098F0A3B}.Release|x86.Build.0 = Release|x86
+		{97162189-4486-421F-B1C9-46D5870C251E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97162189-4486-421F-B1C9-46D5870C251E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97162189-4486-421F-B1C9-46D5870C251E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{97162189-4486-421F-B1C9-46D5870C251E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{97162189-4486-421F-B1C9-46D5870C251E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{97162189-4486-421F-B1C9-46D5870C251E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97162189-4486-421F-B1C9-46D5870C251E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97162189-4486-421F-B1C9-46D5870C251E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{97162189-4486-421F-B1C9-46D5870C251E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{97162189-4486-421F-B1C9-46D5870C251E}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{35F13438-6067-458A-8FBC-785DA8FEBEDD} = {87882454-CE71-44D9-A322-510ED4C86CDA}
-		{DAEEB586-6725-40F4-B96F-D0D4098F0A3B} = {87882454-CE71-44D9-A322-510ED4C86CDA}
+		{97162189-4486-421F-B1C9-46D5870C251E} = {87882454-CE71-44D9-A322-510ED4C86CDA}
+		{BB4624D4-9CE7-47CA-8972-A5F8F7285932} = {87882454-CE71-44D9-A322-510ED4C86CDA}
 	EndGlobalSection
 EndGlobal

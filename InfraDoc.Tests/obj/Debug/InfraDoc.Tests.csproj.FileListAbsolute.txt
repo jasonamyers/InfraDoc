@@ -10,3 +10,15 @@ c:\users\jamyers\documents\visual studio 2010\Projects\InfraDoc\InfraDoc.Tests\b
 c:\users\jamyers\documents\visual studio 2010\Projects\InfraDoc\InfraDoc.Tests\bin\Debug\InfraDoc.Services.exe
 c:\users\jamyers\documents\visual studio 2010\Projects\InfraDoc\InfraDoc.Tests\bin\Debug\InfraDoc.Data.pdb
 c:\users\jamyers\documents\visual studio 2010\Projects\InfraDoc\InfraDoc.Tests\bin\Debug\InfraDoc.Services.pdb
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Tests\bin\Debug\InfraDoc.Tests.dll.config
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Tests\bin\Debug\InfraDoc.Tests.dll
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Tests\bin\Debug\InfraDoc.Tests.pdb
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Tests\bin\Debug\InfraDoc.Data.exe
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Tests\bin\Debug\InfraDoc.dll
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Tests\bin\Debug\InfraDoc.Services.exe
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Tests\bin\Debug\InfraDoc.Data.pdb
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Tests\bin\Debug\InfraDoc.Services.pdb
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Tests\bin\Debug\InfraDoc.pdb
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Tests\obj\Debug\InfraDoc.Tests.dll
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Tests\obj\Debug\InfraDoc.Tests.pdb

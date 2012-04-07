@@ -5,3 +5,10 @@ c:\users\jamyers\documents\visual studio 2010\Projects\InfraDoc\InfraDoc\bin\Ent
 c:\users\jamyers\documents\visual studio 2010\Projects\InfraDoc\InfraDoc\obj\Debug\ResolveAssemblyReference.cache
 c:\users\jamyers\documents\visual studio 2010\Projects\InfraDoc\InfraDoc\obj\Debug\InfraDoc.dll
 c:\users\jamyers\documents\visual studio 2010\Projects\InfraDoc\InfraDoc\obj\Debug\InfraDoc.pdb
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc\bin\InfraDoc.dll
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc\bin\InfraDoc.pdb
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc\bin\EntityFramework.dll
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc\bin\EntityFramework.xml
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc\obj\Debug\InfraDoc.dll
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc\obj\Debug\InfraDoc.pdb

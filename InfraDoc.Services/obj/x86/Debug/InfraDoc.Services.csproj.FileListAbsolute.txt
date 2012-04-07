@@ -5,3 +5,10 @@ C:\Users\jamyers\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Service
 C:\Users\jamyers\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Services\bin\Debug\InfraDoc.Data.pdb
 C:\Users\jamyers\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Services\obj\x86\Debug\InfraDoc.Services.exe
 C:\Users\jamyers\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Services\obj\x86\Debug\InfraDoc.Services.pdb
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Services\bin\Debug\InfraDoc.Services.exe
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Services\bin\Debug\InfraDoc.Services.pdb
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Services\bin\Debug\InfraDoc.Data.exe
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Services\bin\Debug\InfraDoc.Data.pdb
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Services\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Services\obj\x86\Debug\InfraDoc.Services.exe
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.Services\obj\x86\Debug\InfraDoc.Services.pdb

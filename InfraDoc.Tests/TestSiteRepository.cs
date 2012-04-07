@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using InfraDoc.Data;
-using InfraDoc.Data.DataAccess;
+using InfraDoc.Data.Interfaces;
 
 namespace InfraDoc.Tests
 {

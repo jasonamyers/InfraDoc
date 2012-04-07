@@ -3,4 +3,5 @@
   <Module PersistentId="5E00CF86-93E4-44EB-8458-1458446ED716" ModuleId="InfraDoc.Data" />
   <Module PersistentId="35F13438-6067-458A-8FBC-785DA8FEBEDD" ModuleId="InfraDoc.Tests" />
   <Module PersistentId="086C29D0-2D93-419F-BA9F-91E41E329BD2" ModuleId="InfraDoc.Web" />
+  <Module PersistentId="97162189-4486-421F-B1C9-46D5870C251E" ModuleId="InfraDoc.IntegrationTests" />
 </Modules>

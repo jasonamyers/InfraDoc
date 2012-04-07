@@ -1,0 +1,5 @@
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.IntegrationTests\bin\Debug\InfraDoc.IntegrationTests.dll
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.IntegrationTests\bin\Debug\InfraDoc.IntegrationTests.pdb
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.IntegrationTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.IntegrationTests\obj\Debug\InfraDoc.IntegrationTests.dll
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\InfraDoc\InfraDoc.IntegrationTests\obj\Debug\InfraDoc.IntegrationTests.pdb

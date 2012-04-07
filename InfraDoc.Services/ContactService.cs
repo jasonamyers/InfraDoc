@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using InfraDoc.Data;
-using InfraDoc.Data.DataAccess;
 using InfraDoc.Data.Filters;
+using InfraDoc.Data.Interfaces;
 
 namespace InfraDoc.Services
 {
@@ -20,7 +20,7 @@ namespace InfraDoc.Services
         {
             _repository = repository;
             if (_repository == null)
-                throw new Exception("Repository cannnot be null");
+                throw new Exception("Repository cannot be null");
         }
 
         /// <summary>

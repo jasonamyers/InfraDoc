@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using InfraDoc.Data;
-using InfraDoc.Data.DataAccess;
+using InfraDoc.Data.Filters;
+using InfraDoc.Data.Interfaces;
 
 namespace InfraDoc.Services
 {
@@ -29,6 +30,11 @@ namespace InfraDoc.Services
         public IList<Site> GetSites()
         {
             return _repository.GetSites().ToList();
+        }
+
+        public Site GetSiteByID(int id)
+        {
+            return _repository.GetSites().WithID(id).Single();
         }
     }
 }
