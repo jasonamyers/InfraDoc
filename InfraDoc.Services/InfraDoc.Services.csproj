@@ -35,6 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ContactService.cs" />
+    <Compile Include="IpService.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="SiteService.cs" />
     <Compile Include="SubnetService.cs" />

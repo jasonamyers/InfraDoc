@@ -41,6 +41,14 @@ namespace InfraDoc.Tests
         }
 
         [TestMethod]
+        public void SiteService_Can_Get_Sites_From_Service()
+        {
+            IList<Site> sites = siteService.GetSites();
+            Assert.IsTrue(sites.Count > 0);
+
+        }
+
+        [TestMethod]
         public void SiteRepository_Returns_Single_Site_When_Filtered_ByID_1()
         {
             ISiteRepository rep = new TestSiteRepository();
@@ -51,11 +59,10 @@ namespace InfraDoc.Tests
         }
 
         [TestMethod]
-        public void SiteService_Can_Get_Sites_From_Service()
+        public void SiteService_Returns_Single_Site_With_SiteID_1()
         {
-            IList<Site> sites = siteService.GetSites();
-            Assert.IsTrue(sites.Count > 0);
-
+            Site s = siteService.GetSiteByID(1);
+            Assert.IsNotNull(s);
         }
 
         

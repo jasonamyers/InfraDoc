@@ -38,9 +38,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Contact.cs" />
+    <Compile Include="Filters\IpFilters.cs" />
     <Compile Include="Filters\SiteFilters.cs" />
     <Compile Include="Filters\SubnetFilters.cs" />
     <Compile Include="Interfaces\IContactRepository.cs" />
+    <Compile Include="Interfaces\IIpRespository.cs" />
     <Compile Include="Interfaces\ISiteRepository.cs" />
     <Compile Include="Filters\ContactFilters.cs" />
     <Compile Include="Interfaces\ISubnetRepository.cs" />

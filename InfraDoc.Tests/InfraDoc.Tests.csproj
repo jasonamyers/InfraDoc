@@ -50,11 +50,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ContactTests.cs" />
+    <Compile Include="IpTests.cs" />
     <Compile Include="SubnetTests.cs" />
     <Compile Include="TestContactRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
     <Compile Include="SiteTests.cs" />
+    <Compile Include="TestIpRepository.cs" />
     <Compile Include="TestSiteRepository.cs" />
     <Compile Include="TestSubnetRepository.cs" />
   </ItemGroup>

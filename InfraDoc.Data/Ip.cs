@@ -14,5 +14,19 @@ namespace InfraDoc.Data
         public string Purpose { get; set; }
         public string Url { get; set; }
         public Subnet Subnet { get; set; }
+
+        public Ip()
+        {
+            
+        }
+
+        public Ip(int subnetID, string address, string name, string purpose, string url)
+        {
+            this.SubnetId = subnetID;
+            this.Address = address;
+            this.Name = name;
+            this.Purpose = purpose;
+            this.Url = url;
+        }
     }
 }

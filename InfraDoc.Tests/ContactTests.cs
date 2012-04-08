@@ -40,7 +40,14 @@ namespace InfraDoc.Tests
         }
 
         [TestMethod]
-        public void Contact_Has_Site_Filter_For_Contacts()
+        public void ContactService_Contains_Contains()
+        {
+            IList<Contact> contacts = contactService.GetContacts();
+            Assert.IsNotNull(contacts);
+        }
+
+        [TestMethod]
+        public void ContactRepository_Has_Site_Filter_For_Contacts()
         {
             IContactRepository rep = new TestContactRepository();
 
@@ -52,7 +59,7 @@ namespace InfraDoc.Tests
         }
 
         [TestMethod]
-        public void Repository_SiteFilter_Returns_2_Contacts_With_Site_1()
+        public void ContactRepository_SiteFilter_Returns_2_Contacts_With_Site_1()
         {
             IContactRepository rep = new TestContactRepository();
 
@@ -70,7 +77,7 @@ namespace InfraDoc.Tests
         }
 
         [TestMethod]
-        public void Repository_Returns_Single_Contact_When_Filtered_ByID_1()
+        public void ContactRepository_Returns_Single_Contact_When_Filtered_ByID_1()
         {
             IContactRepository rep = new TestContactRepository();
 

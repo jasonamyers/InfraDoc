@@ -14,5 +14,12 @@ namespace InfraDoc.Data.Filters
                    select s;
 
         }
+
+        public static IQueryable<Subnet> WithID(this IQueryable<Subnet> qry, int ID )
+        {
+            return from s in qry
+                   where s.SubnetId == ID
+                   select s;
+        }
     }
 }

@@ -43,7 +43,7 @@ namespace InfraDoc.Tests
         }
 
         [TestMethod]
-        public void Subnet_Has_Site_Filter_for_Subnets()
+        public void SubnetRepository_Has_Site_Filter_for_Subnets()
         {
             ISubnetRepository rep = new TestSubnetRepository();
 
@@ -52,12 +52,35 @@ namespace InfraDoc.Tests
                 .ToList();
             Assert.IsNotNull(subnets);
         }
+        
+        [TestMethod]
+        public void SubnetRepository_Returns_2_Subnets_With_SiteID_1()
+        {
+            ISubnetRepository rep = new TestSubnetRepository();
+            IList<Subnet> subnets = rep.GetSubnets().WithSite(1).ToList();
+            Assert.AreEqual(2,subnets.Count);
+        }
 
         [TestMethod]
         public void SubnetService_Returns_2_Subnets_With_Site_1()
         {
             IList<Subnet> subnets = subnetService.GetSubnetsBySite(1);
             Assert.AreEqual(2, subnets.Count);
+        }
+
+        [TestMethod]
+        public void SubnetRepository_Returns_Single_Subnet_When_Filtered_ByID_1()
+        {
+            ISubnetRepository rep = new TestSubnetRepository();
+            IList<Subnet> subnets = rep.GetSubnets().WithID(1).ToList();
+            Assert.AreEqual(1, subnets.Count);
+        }
+
+        [TestMethod]
+        public void SubnetService_Returns_Single_Subnet_With_ContactID_1()
+        {
+            Subnet s = subnetService.GetSubnetByID(1);
+            Assert.IsNotNull(s);
         }
     }
 }

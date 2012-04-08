@@ -23,5 +23,10 @@ namespace InfraDoc.Services
         {
             return _repository.GetSubnets().WithSite(siteID).ToList();
         }
+
+        public Subnet GetSubnetByID(int id)
+        {
+            return _repository.GetSubnets().WithID(id).Single();
+        }
     }
 }
